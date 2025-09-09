@@ -1,0 +1,51 @@
+/* color de fondo
+header #ffffff
+body #434343
+footer #1f3894
+ */
+ :root{
+    --color-header: #ffffff; /* blanco*/
+    --color-body: #434343; /*gris transparente*/
+    --color-footer: #1f3894 /*morado*/
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--color-header);
+    padding: 30px; 
+}
+
+body{
+    background-color:  var(--color-body);
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: center;
+}
+footer{
+    background-color: var(--color-footer);
+    margin-top: 200px;
+    padding: 60px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.equipo{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
